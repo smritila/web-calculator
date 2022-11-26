@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  margin: 150px auto;
+  background-color: #002147;
+  padding: 25px 30px;
+}
+
+.button {
+  width: 15%;
+  background-color: #003153;
+  color: white;
+  text-align: center;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  padding: 2px 4px;
+}
+
+.button1 {
+  flex-grow: 2;
+  padding: 2px 4px;
+  width: 15%;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: white;
+  background-color: #003153;
+}
+
+.button-multiply {
+  width: 15%;
+  background-color: #4169e1;
+  color: white;
+  text-align: center;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  padding: 2px 4px;
+}
